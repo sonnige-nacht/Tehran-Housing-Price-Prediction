@@ -16,11 +16,11 @@ The goal is to estimate house prices based on features like **Area, Number of Ro
 * Matplotlib
 * Scikit-learn
 
-## Key Findings (Phase 1)
+## Phase 1
 * **Missing Data:** Successfully identified and removed 23 records with missing addresses.
 * **Outlier Management:** Filtered properties with an area greater than 250 $m^2$ to focus on the standard residential market.
 
-## Key Findings (Phase 2)
+## Phase 2
 * **Correlation Insights:** Identified a strong positive correlation between `Area` and `Price`. Features like `Parking` and `Elevator` also showed a significant impact on the final valuation.
 * **Geographical Trends:** Observed substantial price variations across different Tehran districts, confirming that `Address` is one of the most influential predictors.
 * **Model Performance:** Implemented a Linear Regression model to predict house prices. The model's performance was evaluated using metrics such as R-squared and Mean Absolute Error (MAE) to ensure reliability.
