@@ -6,7 +6,7 @@ This project focuses on predicting real estate prices in Tehran using Machine Le
 The goal is to estimate house prices based on features like **Area, Number of Rooms, Parking, Warehouse, Elevator,** and **Location**.
 
 ## Project Structure
-* `cleaning.ipynb`: Initial data inspection, handling missing values (Address), and removing outliers (> 250 $m^2$).
+* `cleaning.ipynb`: Initial data inspection, handling missing values, and removing outliers.
 * `analysis_modeling.ipynb`: Exploratory Data Analysis (EDA) and building the regression model.
 * `housePrice_cleaned.csv`: The refined dataset used for training.
 
